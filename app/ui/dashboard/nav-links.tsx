@@ -8,12 +8,9 @@ import {
 // Depending on the size of the application, this would be stored in a database.
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
-  {
-    name: 'Invoices',
-    href: '/dashboard/invoices',
-    icon: DocumentDuplicateIcon,
-  },
-  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
+  {name: 'Forecast',href: '/dashboard/forecast',icon: DocumentDuplicateIcon,},
+  { name: 'Historical', href: '/dashboard/historical', icon: UserGroupIcon },
+  { name: 'About', href: '/dashboard/about', icon: UserGroupIcon },
 ];
 
 export default function NavLinks() {
