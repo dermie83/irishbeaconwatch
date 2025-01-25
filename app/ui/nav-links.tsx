@@ -7,10 +7,10 @@ import {
 // Map of links to display in the side navigation.
 // Depending on the size of the application, this would be stored in a database.
 const links = [
-  { name: 'Home', href: '/dashboard', icon: HomeIcon },
-  {name: 'Forecast',href: '/dashboard/forecast',icon: DocumentDuplicateIcon,},
-  { name: 'Historical', href: '/dashboard/historical', icon: UserGroupIcon },
-  { name: 'About', href: '/dashboard/about', icon: UserGroupIcon },
+  { name: 'Home', href: '/', icon: HomeIcon },
+  {name: 'Forecast',href: '/forecast',icon: DocumentDuplicateIcon,},
+  { name: 'Historical', href: '/historical', icon: UserGroupIcon },
+  { name: 'About', href: '/about', icon: UserGroupIcon },
 ];
 
 export default function NavLinks() {
